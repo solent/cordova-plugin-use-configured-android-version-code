@@ -1,0 +1,9 @@
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-use-configured-android-version-code" version="1.0.0">
+  <name>
+    cordova-plugin-use-configured-android-version-code
+  </name>
+  <keywords>cordova,android,versioncode</keywords>
+  <platform name="android">
+    <hook type="after_prepare" src="scripts/android/setupVersionCode.js"/>
+  </platform>
+</plugin>
